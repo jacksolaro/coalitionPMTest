@@ -2,6 +2,53 @@
   margin: 0;
 }
 
-.topBanner {
-  background-color: orange;
+.topBanner__Container {
+  background-color: #ff6200;
+  display: flex;
+  justify-content: center;
+  height: 34px;
+}
+.topBanner__Details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 960px;
+}
+
+.topBanner__AuthLinks {
+  display: flex;
+}
+
+.navBanner__Container {
+  display: flex;
+  justify-content: center;
+  height: 110px;
+  background-color: #ededed;
+}
+
+.navBanner__Details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 960px;
+}
+
+.logo {
+  font-family: "Bebas Neue", cursive;
+  font-size: 36px;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-item {
+  list-style-type: none;
+  padding-left: 25px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-family: "Ubuntu", sans-serif;
 }
