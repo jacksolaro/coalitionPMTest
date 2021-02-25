@@ -53,11 +53,27 @@
   font-family: "Ubuntu", sans-serif;
 }
 
-.active {
+.nav-active {
   font-weight: bold;
   border-bottom: 4px solid #ff6200;
 }
 
 .breadcrumb {
   display: flex;
+  margin: 48px 0px;
+  color: #aaaaaa;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.breadcrumb-item {
+  list-style-type: none;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.main__Container {
+  width: 960px;
 }
