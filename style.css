@@ -91,10 +91,14 @@ h2 {
 
 h3 {
   font-size: 16px;
+  color: #595959;
+  font-family: "Ubuntu", sans-serif;
 }
 
 h4 {
   font-size: 14px;
+  color: #595959;
+  font-family: "Ubuntu", sans-serif;
 }
 
 p {
@@ -132,4 +136,32 @@ textarea {
   font-weight: bold;
   border: none;
   padding: 14px 25px;
+}
+
+/* Style all font awesome icons */
+.fa {
+  font-size: 36px;
+
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+/* Add a hover effect if you want */
+.icon:hover {
+  background-color: #363636;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d0d0d0;
+  margin-right: 10px;
+}
+
+.SocialIcons__Container {
+  display: flex;
 }
