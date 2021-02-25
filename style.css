@@ -33,9 +33,9 @@
   width: 960px;
 }
 
-.logo {
+.nav-logo {
   font-family: "Bebas Neue", cursive;
-  font-size: 36px;
+  font-size: 40px;
 }
 
 .nav {
@@ -51,4 +51,13 @@
   text-decoration: none;
   color: black;
   font-family: "Ubuntu", sans-serif;
+}
+
+.active {
+  font-weight: bold;
+  border-bottom: 4px solid #ff6200;
+}
+
+.breadcrumb {
+  display: flex;
 }
