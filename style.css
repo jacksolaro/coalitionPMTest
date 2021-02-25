@@ -36,10 +36,12 @@
 .nav-logo {
   font-family: "Bebas Neue", cursive;
   font-size: 40px;
+  color: #313131;
 }
 
 .nav {
   display: flex;
+  margin-right: 30px;
 }
 
 .nav-item {
@@ -49,8 +51,9 @@
 
 .nav-link {
   text-decoration: none;
-  color: black;
+  color: #313131;
   font-family: "Ubuntu", sans-serif;
+  font-size: 13px;
 }
 
 .nav-active {
